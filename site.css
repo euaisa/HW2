@@ -3,3 +3,13 @@
     font-family: Helvetica, sans-serif;
     font-size: 150%;
 }
+
+h2 {
+    color:rgb(16, 79, 215)
+}
+
+button {
+    background-color: rgb(105, 211, 195);
+    border-color: black;
+}
+
