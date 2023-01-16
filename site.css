@@ -1,15 +1,95 @@
  body {
-    margin: 50px;
-    font-family: Helvetica, sans-serif;
+    margin: 5px;
+    font-family: "anadale mono";
     font-size: 150%;
+    padding: 50px;
+    background-image: url("https://cdn.pixabay.com/photo/2016/03/13/21/26/binary-1254499_960_720.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.container {
+    text-align: center;
+    border-radius: 15%;
+    border-width: 1px;
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+
+p {
+    margin: 0%;
+    padding: 0%;
+    border-radius: 50px;
+}
+
+.boxes {
+    width: 200px;
+    height: 150px;
+    margin-left: 35%;
 }
 
 h2 {
-    color:rgb(16, 79, 215)
+    background-color:#2b90af;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+    border-radius: 20px;
+    padding: 1%;
+    margin-left: 35%;
+    margin-right: 35%;
+    box-shadow: 0 6px #999;
 }
 
 button {
-    background-color: rgb(105, 211, 195);
-    border-color: black;
+    background-color: #2b90af;
+    display: inline-block;
+    padding: 5px 15px;
+    font-size: 25px;
+    font-family: "anadale mono";
+    cursor: pointer;
+    text-align: center;
+    text-decoration:solid;
+    outline: none;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 6px #999;
+    margin: 3%;
 }
 
+button:hover {
+    background-color: rgb(131, 198, 224);
+}
+
+button:active {
+    background-color: #235272;
+    box-shadow: 0 9px #999;
+    transform: translateY(4px);
+}
+
+#num1, #num2, #num3, [type=number]:focus {
+    font-size: 20px;
+    width: 210px;
+    text-align: center;
+    height: 24px;
+    margin: 5px;
+    /* box-shadow: 0 5px rgb(218, 187, 187); */
+    /* border-style: hidden; */
+    border-style: dashed;
+    border-width: .5px;
+ }
+
+.resultbox {
+    /* box-shadow: 0 5px rgb(218, 187, 187); */
+    border-style: hidden;
+    text-align: center;
+    margin-left: 37%;
+    margin-right: 37%;
+    margin-bottom: 4%;
+    background-color: #fff;
+    border-style: dashed;
+    border-width: .5px;
+
+
+
+}
